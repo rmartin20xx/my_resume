@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    background: rgb(98, 98, 252);
+    min-height: 100vh;
+}
+
+.container{
+    position:relative;
+    background: #fff;
+    border-radius: 40px;
+    display: grid;
+    grid-template-columns: 500px 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,1.0);
+}
+
+.container  h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.container .left-side{
+    position: relative;
+    background: cornflowerblue;
+    padding: 20px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.name{
+    text-align: center;
+    font-weight: 700;
+}
+.profile-photo{
+    margin: auto;
+    width: 80%;
+
+    padding: 10px;
+    /* width: 200px;
+    height: 200px;
+    left: auto;
+    right: auto;
+    border: 20px; */
+
+}
+.profile-photo img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 40px;
+    box-shadow: 0 15px 25px rgba(0,0,0,1.0);
+    
+}
+
+.name h1{
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 40px;
+    font-size: 35px;
+    font-weight: 700;
+    text-indent: 1px;
+}
+
+.name h2{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+
+.contact-info{
+    padding-top: 40px;   
+}
+
+.contact-info h2{
+    color: #fff;
+}
+
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contact-info ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contact-info ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+
+}
+
+.contact-info ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+
+.education h4{
+    color: #fff;
+    font-size: 18px;
+}
+.education h5{
+    color: #fff;
+}
+
+.language .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgb(255, 255, 255);
+    display: block;
+    margin-top: 5px;;
+}
+
+.language ul li div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #b9ce00;
+}
+
+
+.container .right-side{
+    position: relative;
+    background: rgb(239, 243, 252);
+    padding: 40px;
+    
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.right-side div{
+    margin-right: 20px;
+
+}
+
+.professional-skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.professional-skills .box h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+
+}
+
+.professional-skills .box .percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #848c99;
+}
+
+.percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #b9ce00;
+}
